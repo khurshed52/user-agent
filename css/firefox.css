@@ -1,0 +1,11 @@
+body {
+    background: blue;
+}
+
+body::before {
+    content: 'firefox css working';
+    display: block;
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+}

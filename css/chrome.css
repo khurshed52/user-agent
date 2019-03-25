@@ -1,0 +1,12 @@
+body {
+    background: red;
+    position: relative;
+}
+
+body::before {
+    content: 'chrome css working';
+    display: block;
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+}

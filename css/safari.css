@@ -1,0 +1,11 @@
+body {
+    background: rgb(20, 167, 145);
+}
+
+body::before {
+    content: 'safari css working';
+    display: block;
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+}
